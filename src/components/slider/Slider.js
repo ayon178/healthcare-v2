@@ -90,7 +90,7 @@ export default function SwiperAutoSlider() {
                 backgroundRepeat: 'no-repeat',
               }}
             >
-              <div className="flex flex-col items-start justify-center">
+              <div className="flex container mx-auto ps-5 md:ps-10 flex-col items-start justify-center">
                 <div className="text-secondaryText text-3xl text-left slide-header font-bold">
                   Your Health Is
                   <br />

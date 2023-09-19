@@ -7,7 +7,7 @@ import { IoMdClose } from 'react-icons/io'
 const MobileMenu = forwardRef((props, ref) => {
   return (
     <div
-      className="h-screen w-screen bg-slate-400 absolute top-0 left-0 z-20 md:hidden"
+      className="h-screen bg-primary w-screen absolute top-0 left-0 z-20 md:hidden"
       ref={ref}
     >
       <ul className="flex flex-col items-center gap-6 text-primaryText w-full h-full justify-center">
@@ -36,7 +36,7 @@ const MobileMenu = forwardRef((props, ref) => {
           </Link>
         </li>
         <li>
-          <button className="bg-primary text-white px-3 py-1 rounded-md">
+          <button className="bg-white text-primary font-semibold px-3 py-1 rounded-md">
             Book Appointment
           </button>
         </li>
