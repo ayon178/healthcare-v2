@@ -13,7 +13,7 @@ const OurPartnersCard = ({ data }) => {
         <h1 className="text-center px-4 text-lg md:text-xl font-semibold mt-3 mb-2">
           {data.title}
         </h1>
-        <p className="text-justify text-[.8rem] px-4 font-semibold">
+        <p className="text-justify text-[.8rem] px-4 font-medium">
           {data.description}
         </p>
       </div>
