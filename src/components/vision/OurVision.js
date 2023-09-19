@@ -3,7 +3,7 @@ import visionImage from '../../assets/vision.jpg'
 const OurVision = () => {
   return (
     <div className="container mx-auto px-4 md:px-0">
-      <h1 className="text-2xl md:text-3xl text-center font-semibold w-fit mx-auto border-b-2 border-slate-500 mt-10 pb-2">
+      <h1 className="text-2xl md:text-3xl text-center font-semibold w-fit mx-auto border-b-2 border-primary mt-10 pb-2">
         Our Vision
       </h1>
 
@@ -14,7 +14,7 @@ const OurVision = () => {
           backgroundPosition: 'top ',
           backgroundRepeat: 'no-repeat',
         }}
-        className=" grid py-20 grid-cols-1 md:grid-cols-2 h-full w-full mt-8 gap-5 items-center"
+        className=" grid py-20 grid-cols-1 md:grid-cols-2 h-full w-full mt-8 gap-5 items-center rounded-md"
       >
         <div className=" px-8">
           {' '}
