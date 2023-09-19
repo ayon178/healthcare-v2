@@ -3,7 +3,7 @@ import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from 'react-icons/bs'
 
 const OurDoctorCard = ({ data }) => {
   return (
-    <div className="w-full mx-auto max-w-sm p-0 pb-4 bg-slate-100 border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="w-full mx-auto max-w-sm p-0 pb-4  ">
       <div className="relative" style={{ paddingBottom: '85%' }}>
         <Image
           src={data.image}
