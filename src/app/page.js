@@ -1,3 +1,4 @@
+import Appointment from '@/components/appointment/Appointment'
 import OurDoctors from '@/components/doctor/OurDoctors'
 import OurPartners from '@/components/partner/OurPartners'
 import OurServices from '@/components/service/OurServices'
@@ -12,6 +13,7 @@ export default function Home() {
       <OurPartners />
       <OurVision />
       <OurDoctors />
+      <Appointment />
     </main>
   )
 }

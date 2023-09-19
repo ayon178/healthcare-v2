@@ -93,7 +93,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <button className="bg-primary text-white px-3 py-1 rounded-md">
+          <button className="bg-primary text-white px-3 py-2 rounded-md">
             Book Appointment
           </button>
         </li>
